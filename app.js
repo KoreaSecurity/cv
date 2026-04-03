@@ -1,5 +1,29 @@
 const targets = document.querySelectorAll("[data-md]");
 const summaryTarget = document.querySelector("[data-auto-summary]");
+const pretextPanel = document.querySelector("[data-pretext-panel]");
+
+const pretextScenes = [
+  {
+    label: "System Security",
+    text: "System security research spanning kernel visibility, container isolation, and runtime attack detection across modern compute stacks.",
+  },
+  {
+    label: "Cloud Security",
+    text: "Cloud security work focused on multi-tenant risk, Shadow IT exposure, virtualization behavior, and secure service operation.",
+  },
+  {
+    label: "Malware Analysis",
+    text: "Malware analysis covering Android, Linux, ransomware, and behavioral profiling for scalable incident response and threat hunting.",
+  },
+  {
+    label: "AI Threats",
+    text: "AI-related threat research on adversarial use, vulnerability discovery, red teaming, and practical abuse paths in emerging systems.",
+  },
+  {
+    label: "AI Defenses",
+    text: "AI defense work aimed at resilient detection pipelines, security evaluation, and trustworthy analysis support for defenders.",
+  },
+];
 
 function extractEntryId(text) {
   const match = text.match(/^\[([^\]]+)\]\s*/);
@@ -317,9 +341,92 @@ async function renderAutoSummary() {
   }
 }
 
+function getCanvasFont(element) {
+  const style = window.getComputedStyle(element);
+  const fontStyle = style.fontStyle || "normal";
+  const fontVariant = style.fontVariant || "normal";
+  const fontWeight = style.fontWeight || "400";
+  const fontSize = style.fontSize || "16px";
+  const fontFamily = style.fontFamily || '"Noto Sans KR", sans-serif';
+  return `${fontStyle} ${fontVariant} ${fontWeight} ${fontSize} ${fontFamily}`;
+}
+
+function renderPretextFallback(panel) {
+  const linesRoot = panel.querySelector("[data-pretext-lines]");
+  const label = panel.querySelector("[data-pretext-label]");
+  const status = panel.querySelector("[data-pretext-status]");
+  const scene = pretextScenes[0];
+
+  linesRoot.innerHTML = `<p class="pretext-line">${scene.text}</p>`;
+  label.textContent = scene.label;
+  status.textContent = "Static fallback mode.";
+}
+
+async function initPretextDemo() {
+  if (!pretextPanel) return;
+
+  const linesRoot = pretextPanel.querySelector("[data-pretext-lines]");
+  const label = pretextPanel.querySelector("[data-pretext-label]");
+  const status = pretextPanel.querySelector("[data-pretext-status]");
+
+  try {
+    const { prepareWithSegments, layoutWithLines } = await import(
+      "https://esm.sh/@chenglou/pretext?bundle"
+    );
+
+    const preparedScenes = new Map();
+    let currentIndex = 0;
+
+    function prepareScene(scene) {
+      const font = getCanvasFont(linesRoot);
+      const cacheKey = `${scene.label}:${font}`;
+      if (!preparedScenes.has(cacheKey)) {
+        preparedScenes.set(cacheKey, prepareWithSegments(scene.text, font));
+      }
+      return preparedScenes.get(cacheKey);
+    }
+
+    function renderScene(index) {
+      const width = Math.max(linesRoot.clientWidth, 240);
+      const style = window.getComputedStyle(linesRoot);
+      const lineHeight = Number.parseFloat(style.lineHeight) || 26;
+      const scene = pretextScenes[index];
+      const prepared = prepareScene(scene);
+      const { lines } = layoutWithLines(prepared, width, lineHeight);
+
+      linesRoot.innerHTML = lines
+        .map(
+          (line, lineIndex) =>
+            `<p class="pretext-line" style="transition-delay:${lineIndex * 55}ms">${line.text}</p>`
+        )
+        .join("");
+
+      label.textContent = scene.label;
+      status.textContent = `Scene ${index + 1} of ${pretextScenes.length}`;
+    }
+
+    renderScene(currentIndex);
+
+    const resizeObserver = new ResizeObserver(() => {
+      preparedScenes.clear();
+      renderScene(currentIndex);
+    });
+    resizeObserver.observe(linesRoot);
+
+    window.setInterval(() => {
+      currentIndex = (currentIndex + 1) % pretextScenes.length;
+      renderScene(currentIndex);
+    }, 3200);
+  } catch (error) {
+    console.error(error);
+    renderPretextFallback(pretextPanel);
+  }
+}
+
 Promise.all([...targets].map(renderMarkdown)).then(() => {
   enhanceProfileLinks();
   decorateSectionTitles();
   enhanceSectionToggles();
   renderAutoSummary();
+  initPretextDemo();
 });

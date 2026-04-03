@@ -280,6 +280,92 @@ h3,
   line-height: 1.45;
 }
 
+.pretext-panel {
+  margin-top: 20px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+}
+
+.pretext-header,
+.pretext-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.pretext-header .eyebrow {
+  margin: 0;
+}
+
+.pretext-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  min-height: 28px;
+  border: 1px solid #dbe7ff;
+  border-radius: 999px;
+  background: #f5f8ff;
+  color: var(--accent);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.pretext-viewport {
+  margin-top: 14px;
+  padding: 16px 0 14px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.pretext-lines {
+  min-height: 88px;
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.58;
+  letter-spacing: -0.015em;
+}
+
+.pretext-line {
+  margin: 0;
+  opacity: 0;
+  transform: translateY(6px);
+  animation: pretextLineIn 420ms ease forwards;
+}
+
+.pretext-footer {
+  margin-top: 12px;
+}
+
+.pretext-footer strong {
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.pretext-footer span {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@keyframes pretextLineIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .section {
   padding-top: 46px;
 }
@@ -591,6 +677,12 @@ h3,
 
   .hero-summary ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pretext-header,
+  .pretext-footer {
+    align-items: start;
+    flex-direction: column;
   }
 }
 

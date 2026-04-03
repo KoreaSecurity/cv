@@ -2,29 +2,6 @@ const targets = document.querySelectorAll("[data-md]");
 const summaryTarget = document.querySelector("[data-auto-summary]");
 const pretextPanel = document.querySelector("[data-pretext-panel]");
 
-const pretextScenes = [
-  {
-    label: "System Security",
-    text: "System security research spanning kernel visibility, container isolation, and runtime attack detection across modern compute stacks.",
-  },
-  {
-    label: "Cloud Security",
-    text: "Cloud security work focused on multi-tenant risk, Shadow IT exposure, virtualization behavior, and secure service operation.",
-  },
-  {
-    label: "Malware Analysis",
-    text: "Malware analysis covering Android, Linux, ransomware, and behavioral profiling for scalable incident response and threat hunting.",
-  },
-  {
-    label: "AI Threats",
-    text: "AI-related threat research on adversarial use, vulnerability discovery, red teaming, and practical abuse paths in emerging systems.",
-  },
-  {
-    label: "AI Defenses",
-    text: "AI defense work aimed at resilient detection pipelines, security evaluation, and trustworthy analysis support for defenders.",
-  },
-];
-
 function extractEntryId(text) {
   const match = text.match(/^\[([^\]]+)\]\s*/);
   return match ? match[1] : "";
@@ -351,15 +328,40 @@ function getCanvasFont(element) {
   return `${fontStyle} ${fontVariant} ${fontWeight} ${fontSize} ${fontFamily}`;
 }
 
+function parseRecentHighlights(markdown) {
+  return markdown
+    .trim()
+    .split(/\n\s*\n/g)
+    .map((block) => {
+      const item = {};
+      block.split("\n").forEach((line) => {
+        const [key, ...rest] = line.split(":");
+        if (!key || !rest.length) return;
+        item[key.trim().toLowerCase()] = rest.join(":").trim();
+      });
+      return item;
+    })
+    .filter((item) => item.type && item.title);
+}
+
 function renderPretextFallback(panel) {
   const linesRoot = panel.querySelector("[data-pretext-lines]");
   const label = panel.querySelector("[data-pretext-label]");
   const status = panel.querySelector("[data-pretext-status]");
-  const scene = pretextScenes[0];
+  const scene = {
+    type: "Highlight",
+    date: "",
+    title: "Recent highlights could not be loaded.",
+    detail: "Static fallback mode.",
+  };
 
-  linesRoot.innerHTML = `<p class="pretext-line">${scene.text}</p>`;
-  label.textContent = scene.label;
-  status.textContent = "Static fallback mode.";
+  linesRoot.innerHTML = `
+    <p class="pretext-meta">${scene.type}</p>
+    <p class="pretext-title-line">${scene.title}</p>
+    <p class="pretext-line">${scene.detail}</p>
+  `;
+  label.textContent = "Recent Highlight";
+  status.textContent = scene.detail;
 }
 
 async function initPretextDemo() {
@@ -370,6 +372,17 @@ async function initPretextDemo() {
   const status = pretextPanel.querySelector("[data-pretext-status]");
 
   try {
+    const highlightResponse = await fetch("./content/recent-highlights.md");
+    if (!highlightResponse.ok) {
+      throw new Error("Failed to load recent-highlights.md");
+    }
+
+    const highlightMarkdown = await highlightResponse.text();
+    const scenes = parseRecentHighlights(highlightMarkdown);
+    if (!scenes.length) {
+      throw new Error("No recent highlight scenes found");
+    }
+
     const { prepareWithSegments, layoutWithLines } = await import(
       "https://esm.sh/@chenglou/pretext?bundle"
     );
@@ -379,9 +392,12 @@ async function initPretextDemo() {
 
     function prepareScene(scene) {
       const font = getCanvasFont(linesRoot);
-      const cacheKey = `${scene.label}:${font}`;
+      const cacheKey = `${scene.type}:${scene.date}:${scene.title}:${font}`;
       if (!preparedScenes.has(cacheKey)) {
-        preparedScenes.set(cacheKey, prepareWithSegments(scene.text, font));
+        preparedScenes.set(cacheKey, {
+          title: prepareWithSegments(scene.title, font),
+          detail: prepareWithSegments(scene.detail || "", font),
+        });
       }
       return preparedScenes.get(cacheKey);
     }
@@ -390,19 +406,34 @@ async function initPretextDemo() {
       const width = Math.max(linesRoot.clientWidth, 240);
       const style = window.getComputedStyle(linesRoot);
       const lineHeight = Number.parseFloat(style.lineHeight) || 26;
-      const scene = pretextScenes[index];
+      const scene = scenes[index];
       const prepared = prepareScene(scene);
-      const { lines } = layoutWithLines(prepared, width, lineHeight);
-
-      linesRoot.innerHTML = lines
+      const titleLayout = layoutWithLines(prepared.title, width, lineHeight);
+      const detailLayout = layoutWithLines(prepared.detail, width, lineHeight);
+      const titleLines = titleLayout.lines
         .map(
           (line, lineIndex) =>
-            `<p class="pretext-line" style="transition-delay:${lineIndex * 55}ms">${line.text}</p>`
+            `<p class="pretext-title-line" style="transition-delay:${lineIndex * 45}ms">${line.text}</p>`
+        )
+        .join("");
+      const detailLines = detailLayout.lines
+        .map(
+          (line, lineIndex) =>
+            `<p class="pretext-line" style="transition-delay:${120 + lineIndex * 45}ms">${line.text}</p>`
         )
         .join("");
 
-      label.textContent = scene.label;
-      status.textContent = `Scene ${index + 1} of ${pretextScenes.length}`;
+      linesRoot.innerHTML = `
+        <div class="pretext-topline">
+          <p class="pretext-meta">${scene.type}</p>
+          <span class="pretext-date">${scene.date || ""}</span>
+        </div>
+        ${titleLines}
+        ${detailLines}
+      `;
+
+      label.textContent = scene.type;
+      status.textContent = `${index + 1} / ${scenes.length}`;
     }
 
     renderScene(currentIndex);
@@ -414,7 +445,7 @@ async function initPretextDemo() {
     resizeObserver.observe(linesRoot);
 
     window.setInterval(() => {
-      currentIndex = (currentIndex + 1) % pretextScenes.length;
+      currentIndex = (currentIndex + 1) % scenes.length;
       renderScene(currentIndex);
     }, 3200);
   } catch (error) {

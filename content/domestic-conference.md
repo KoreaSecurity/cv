@@ -1,33 +1,33 @@
-- [DC33] 우상민 , 황대성 , 장도원*, 최상훈, 박기웅†, “δ-Tracer: 도커 이미지 델타 추적을 통한 위협벡터탐색 프레임워크” 2025 한국정보보호학회 하계학술대회 (CISC-S’25), 2025.06.24-25
-- [DC32] 허남정*, 최상훈, 박기웅†, “CL-OTC: UAV 환경에서 LoRa 은닉 채널 기반의 OneTime-Command 프레임워크 구현” 2025 한국정보보호학회 하계학술대회 (CISC-S’25), 2025.06.24-25
-- [DC31] 황혜경 , 이지원 , 백지은 , 성아영 , 최상훈, 박기웅†, “클라우드 Shadow IT 위협 사례 분석을 통한 클라우드 리소스 스캐너 요구사항 도출” 2025 한국정보보호학회 하계학술대회 (CISC-S’25), 2025.06.24-25, 우수논문상
-- [DC30] 지동혁*, 최상훈, 박기웅†, “OpenTelemetry와 Elastic APM의 관측성(Observability) 기능 비교 연구” 2025 한국정보보호학회 하계학술대회 (CISC-S’25), 2025.06.24-25
-- [DC29] 하영빈*, 최상훈, 박기웅†, “전장형 CPS 이상행동 탐지 기술 조사” 2025 한국정보보호학회 하계학술대회 (CISC-S’25), 2025.06.24-25
-- [DC28] 장수혁*, 최상훈, 박기웅†, “리눅스 커널 취약점 세대별 트렌드와 탐지기술 발전 조사” 2025 한국정보보호학회 하계학술대회 (CISC-S’25), 2025.06.24-25
-- [DC27] 허남정*, 최상훈, 박기웅†, “효율적인 APT 시뮬레이터 프레임워크 제안” 2024 한국정보보호학회 동계학술대회 (CISC-W’24), Vol.34 No.2, pp.581-584, 2024.11.28-29
-- [DC26] 박지훈*, 최상훈, 박기웅†, “무선통신 환경에서의 데이터 은폐 기법과 은닉 채널 형성 방법 조사” 2024 한국정보보호학회 동계학술대회 (CISC-W’24), Vol.34 No.2, pp.307-310, 2024.11.28-29
-- [DC25] 최재민*, 최상훈, 박기웅†, “Linux OS 대상 랜섬웨어 탐지 기법 동향” 2024 한국정보보호학회 동계학술대회 (CISC-W’24), Vol.34 No.2, pp.295-298, 2024.11.28-29
-- [DC24] 김미연*, 최상훈, 박기웅†, “클라우드 환경에서의 제로 트러스트 한계 분석” 2024 한국정보보호학회 동계학술대회 (CISC-W’24), Vol.34 No.2, pp.107-110, 2024.11.28-29
-- [DC23] 허남정 , 이세한 , 최상훈, 박기웅†, “지능형 시스템을 적용한 MTD 전략에 대한 연구 동향 분석” 2024 한국정보처리학회 추계학술대회 (ACK’24), Vol.31, No.2, pp.222-225, 2024.10.31-11.02
-- [DC22] 김미연*, 최상훈, 박기웅†, “클라우드 포렌식에서의 SLA 한계와 개선 방안 제안” 2024 한국정보처리학회 추계학술대회 (ACK’24), Vol.31, No.2, pp.191-194, 2024.10.31-11.02
-- [DC21] 박지훈*, 최상훈, 박기웅†, “피싱 탐지기법 조사 및 분류: 비정상적 상호작용” 2024 한국정보처리학회 추계학술대회 (ACK’24), Vol.31, No.2, pp.181-184, 2024.10.31-11.02, 우수논문상
-- [DC20] 이재욱*, 최상훈, 박기웅†, “고도화된 스테가노그래피 공격기술 조사” 2024 한국정보처리학회 추계학술대회 (ACK’24), Vol.31, No.2, pp.177-180, 2024.10.31-11.02
-- [DC19] 최재민*, 최상훈, 박기웅†, “프로그램 변조를 통한 APK 타입 랜섬웨어 복호화 기법” 2024 한국정보처리학회 추계학술대회 (ACK’24), Vol.31, No.2, pp.167-170, 2024.10.31-11.02
-- [DC18] 최용희*, 최상훈, 박기웅†, “IT 환경 변화에 따른 국가 사이버 복원력 제고를 위한 고려사항” 2024 한국정보처리학회 추계학술대회 (ACK’24), Vol.31, No.2, pp.152-155, 2024.10.31-11.02
-- [DC17] 김상현*, 최상훈, 박기웅†, “CATS : 마이크로서비스 프로세스 안티-템퍼링을 통한 공격 탐지 방안 연구” 2024년 한국정보보호학회 하계학술대회(CISC-S’24), Vol. 34, No. 1, pp. 612-615, 2024.06.20-21.
-- [DC16] 최재민*, 최상훈, 박기웅†, “안드로이드 악성코드 패밀리 분류를 위한 시스템 콜 패턴 분석 연구” 2024년 한국정보보호학회 하계학술대회(CISC-S’24), Vol. 34, No. 1, pp. 544-547, 2024.06.20-21, 우수논문상.
-- [DC15] 박지훈*, 최상훈, 박기웅†, “대규모 언어 모델에서 적대적 프롬프트의 위협: 재현 및 분석” 2024년 한국정보보호학회 하계학술대회(CISC-S’24), Vol. 34, No. 1, pp. 30-33, 2024.06.20-21.
-- [DC14] 이재욱*, 최상훈, 박기웅†, “Illusion-Injection: 고도화 된 악성코드 저지를 위한 디버깅 기술 연구” 2024년 한국정보보호학회 하계학술대회(CISC-S’24), Vol. 34, No. 1, pp. 687-690, 2024.06.20-21.
-- [DC13] 노주영 , 박지훈 , 최기상, 최상훈, 박기웅†, “Quick-Filter: 대규모 언어 모델을 활용한 악성 APK 필터링 프레임워크” 2023년 한국정보보호학회 동계학술대회(CISC-W), Vol. 33, No. 2, pp. 281-284, 2023.12.02.
-- [DC12] 구인회*, 최상훈, 박기웅†, “악성코드 탐지를 위한 시스템 측정 메트릭 커버리지의 한계점 분석” 2023년 한국차세대컴퓨팅학회 춘계학술대회, pp. 223-226, 2023.
-- [DC11] 이하늘*, 김지혜, 우승찬, 임우협, 신규섭, 장서현, 최상훈, 노주영, 박기웅†, “이상징후 탐지를 위한 거시적 관점에서의 데이터 시각화 프레임워크” 2023년 한국정보보호학회 하계학술대회(CISC-S), Vol.33, No.1, pp.215-218, 2023.06.22-23.
-- [DC10] 최기상*, 최상훈, 박기웅†, “안티 디버깅 기술/무력화 연계분석을 통한 우회 프레임워크 설계” 2023년 한국정보보호학회 하계학술대회(CISC-S), Vol.33, No.1, pp.555-558, 2023.06.22-23.
-- [DC9] 최상훈 , 김성진 , 조여름*, 박기웅†, “리눅스 운영체제에서 프로세스 자원 사용량을 효율적으로 오케스트레이션하기 위한 프레임워크” 한국정보처리학회 학술발표대회논문집 (ACK 2021), Vol.28, No.2, pp.28-31, 2021.11.4-6.
-- [DC8] 이병용 , 최상훈 , 박기웅†, “분산컴퓨팅 환경에서 효율적인 분산 트랜잭션 추적을 위한 샘플링 오버헤드 연구” 한국정보보호학회 동계학술대회 (CISC-W’20), Vol.30, No.2, pp.206-209, 2020.11.28.
-- [DC7] 김성진*, 최상훈, 박기웅†, “Immortal Cloud Service 제공을 위한 요구 사항 도출” 한국정보보호학회 하계학술대회 (CISC-S’20), Vol.30, No.1, pp.540-543, 2020.07.15.
-- [DC6] 최상훈*, 이병용, 박건호, 박기웅†, “서버리스 플랫폼에서의 정확한 요금 산정을 위한 초저지연 리소스 미터링 모듈” 한국정보보호학회 동계학술대회 (CISC-W’19), Vol.29, No.2, pp.332-336, 2019.11.30, 우수논문상.
-- [DC5] 박준규*, 강기완, 이양재, 최상훈, 박기웅†, “국방지휘통제체계의 개방형 클라우드 OS 도입 시 고려사항” The 2019 Korea institute of Information Security and Cryptology Choongchung Chapter (KIISC CC 2019), 2019.10.18-29.
-- [DC4] 장은태*, 최상훈, 박기웅†, “효율적인 가상화 시스템 프로파일링을 위한 분석 프레임 요구사항 도출” 한국차세대컴퓨팅학회 춘계학술대회, pp.7-19, 2019.5.10-11.
-- [DC3] 최상훈*, 전우진, 구예은, 서창호, 박기웅†, “가상메모리 모니터링을 통한 클라우드 플랫폼 내 랜섬웨어 탐지 프레임워크” 한국정보보호학회 하계학술대회 (CISC 2017), 2017.6.22-23.
-- [DC2] 최상훈*, 전우진, 김성진, 김형천, 박기웅†, “메모리 트랩기법을 활용한 컨테이너 탈출 탐지 프레임워크” 한국차세대컴퓨팅학회 하계학술대회, 2017.6.16-17, 우수논문상.
-- [DC1] 최상훈*, 박기웅†, “클라우드 인스턴스에 대한 부분 메모리 덤프를 통한 악성코드 탐지 시스템” 한국정보보호학회 동계학술대회 (CISC 2016), 2016.12.9, 최우수논문상.
+- [DC33] Sang-Min Woo, Dae-Sung Hwang, Do-Won Jang*, Sang-Hoon Choi, Ki-Woong Park†, "delta-Tracer: A Threat Vector Exploration Framework via Docker Image Delta Tracking" 2025 KIISC Summer Conference (CISC-S'25), 2025.06.24-25
+- [DC32] Nam-Jeong Heo*, Sang-Hoon Choi, Ki-Woong Park†, "CL-OTC: Implementing a LoRa Covert-Channel-Based One-Time Command Framework in UAV Environments" 2025 KIISC Summer Conference (CISC-S'25), 2025.06.24-25
+- [DC31] Hye-Kyung Hwang, Ji-Won Lee, Ji-Eun Baek, A-Young Seong, Sang-Hoon Choi, Ki-Woong Park†, "Deriving Requirements for a Cloud Resource Scanner Through Analysis of Cloud Shadow IT Threat Cases" 2025 KIISC Summer Conference (CISC-S'25), 2025.06.24-25, Outstanding Paper Award
+- [DC30] Dong-Hyeok Ji*, Sang-Hoon Choi, Ki-Woong Park†, "A Comparative Study of Observability Features in OpenTelemetry and Elastic APM" 2025 KIISC Summer Conference (CISC-S'25), 2025.06.24-25
+- [DC29] Young-Bin Ha*, Sang-Hoon Choi, Ki-Woong Park†, "A Survey of Anomalous Behavior Detection Technologies for Battlefield CPS" 2025 KIISC Summer Conference (CISC-S'25), 2025.06.24-25
+- [DC28] Su-Hyeok Jang*, Sang-Hoon Choi, Ki-Woong Park†, "A Survey of Generational Trends in Linux Kernel Vulnerabilities and Advances in Detection Technologies" 2025 KIISC Summer Conference (CISC-S'25), 2025.06.24-25
+- [DC27] Nam-Jeong Heo*, Sang-Hoon Choi, Ki-Woong Park†, "Toward an Efficient APT Simulator Framework" 2024 KIISC Winter Conference (CISC-W'24), Vol.34 No.2, pp.581-584, 2024.11.28-29
+- [DC26] Ji-Hoon Park*, Sang-Hoon Choi, Ki-Woong Park†, "A Survey of Data Hiding Techniques and Covert Channel Formation Methods in Wireless Communication Environments" 2024 KIISC Winter Conference (CISC-W'24), Vol.34 No.2, pp.307-310, 2024.11.28-29
+- [DC25] Jae-Min Choi*, Sang-Hoon Choi, Ki-Woong Park†, "Trends in Ransomware Detection Techniques for Linux Operating Systems" 2024 KIISC Winter Conference (CISC-W'24), Vol.34 No.2, pp.295-298, 2024.11.28-29
+- [DC24] Mi-Yeon Kim*, Sang-Hoon Choi, Ki-Woong Park†, "An Analysis of Zero Trust Limitations in Cloud Environments" 2024 KIISC Winter Conference (CISC-W'24), Vol.34 No.2, pp.107-110, 2024.11.28-29
+- [DC23] Nam-Jeong Heo, Se-Han Lee, Sang-Hoon Choi, Ki-Woong Park†, "A Survey of Research Trends on MTD Strategies with Intelligent Systems" 2024 KIPS Fall Conference (ACK'24), Vol.31, No.2, pp.222-225, 2024.10.31-11.02
+- [DC22] Mi-Yeon Kim*, Sang-Hoon Choi, Ki-Woong Park†, "SLA Limitations in Cloud Forensics and Suggested Improvements" 2024 KIPS Fall Conference (ACK'24), Vol.31, No.2, pp.191-194, 2024.10.31-11.02
+- [DC21] Ji-Hoon Park*, Sang-Hoon Choi, Ki-Woong Park†, "A Survey and Taxonomy of Phishing Detection Techniques: Abnormal Interaction" 2024 KIPS Fall Conference (ACK'24), Vol.31, No.2, pp.181-184, 2024.10.31-11.02, Outstanding Paper Award
+- [DC20] Jae-Wook Lee*, Sang-Hoon Choi, Ki-Woong Park†, "A Survey of Advanced Steganographic Attack Techniques" 2024 KIPS Fall Conference (ACK'24), Vol.31, No.2, pp.177-180, 2024.10.31-11.02
+- [DC19] Jae-Min Choi*, Sang-Hoon Choi, Ki-Woong Park†, "An APK-Type Ransomware Decryption Technique via Program Transformation" 2024 KIPS Fall Conference (ACK'24), Vol.31, No.2, pp.167-170, 2024.10.31-11.02
+- [DC18] Yong-Hee Choi*, Sang-Hoon Choi, Ki-Woong Park†, "Key Considerations for Strengthening National Cyber Resilience in Response to Changes in IT Environments" 2024 KIPS Fall Conference (ACK'24), Vol.31, No.2, pp.152-155, 2024.10.31-11.02
+- [DC17] Sang-Hyun Kim*, Sang-Hoon Choi, Ki-Woong Park†, "CATS: A Study on Attack Detection Through Microservice Process Anti-Tampering" 2024 KIISC Summer Conference (CISC-S'24), Vol.34, No.1, pp.612-615, 2024.06.20-21
+- [DC16] Jae-Min Choi*, Sang-Hoon Choi, Ki-Woong Park†, "A Study of System Call Pattern Analysis for Android Malware Family Classification" 2024 KIISC Summer Conference (CISC-S'24), Vol.34, No.1, pp.544-547, 2024.06.20-21, Outstanding Paper Award
+- [DC15] Ji-Hoon Park*, Sang-Hoon Choi, Ki-Woong Park†, "The Threat of Adversarial Prompts in Large Language Models: Reproduction and Analysis" 2024 KIISC Summer Conference (CISC-S'24), Vol.34, No.1, pp.30-33, 2024.06.20-21
+- [DC14] Jae-Wook Lee*, Sang-Hoon Choi, Ki-Woong Park†, "Illusion-Injection: A Study of Debugging Techniques for Advanced Malware Disruption" 2024 KIISC Summer Conference (CISC-S'24), Vol.34, No.1, pp.687-690, 2024.06.20-21
+- [DC13] Joo-Young Roh, Ji-Hoon Park, Gi-Sang Choi, Sang-Hoon Choi, Ki-Woong Park†, "Quick-Filter: A Malicious APK Filtering Framework Using Large Language Models" 2023 KIISC Winter Conference (CISC-W), Vol.33, No.2, pp.281-284, 2023.12.02
+- [DC12] In Hoe Ku*, Sang-Hoon Choi, Ki-Woong Park†, "Analyzing the Limitations of System Measurement Metric Coverage for Malware Detection" 2023 Spring Conference of the Next Generation Computing Society, pp.223-226, 2023
+- [DC11] Ha-Neul Lee*, Ji-Hye Kim, Seung-Chan Woo, Woo-Hyeop Lim, Gyu-Seop Shin, Seo-Hyun Jang, Sang-Hoon Choi, Joo-Young Roh, Ki-Woong Park†, "A Data Visualization Framework from a Macroscopic Perspective for Anomaly Detection" 2023 KIISC Summer Conference (CISC-S), Vol.33, No.1, pp.215-218, 2023.06.22-23
+- [DC10] Gi-Sang Choi*, Sang-Hoon Choi, Ki-Woong Park†, "Design of a Bypass Framework Through Linked Analysis of Anti-Debugging Techniques and Neutralization Methods" 2023 KIISC Summer Conference (CISC-S), Vol.33, No.1, pp.555-558, 2023.06.22-23
+- [DC9] Sang-Hoon Choi, Seong-Jin Kim, Yeo-Reum Jo*, Ki-Woong Park†, "A Framework for Efficient Orchestration of Process Resource Usage in Linux Operating Systems" KIPS Conference Proceedings (ACK 2021), Vol.28, No.2, pp.28-31, 2021.11.4-6
+- [DC8] Byeong-Yong Yi, Sang-Hoon Choi, Ki-Woong Park†, "A Study of Sampling Overhead for Efficient Distributed Transaction Tracing in Distributed Computing Environments" KIISC Winter Conference (CISC-W'20), Vol.30, No.2, pp.206-209, 2020.11.28
+- [DC7] Seong-Jin Kim*, Sang-Hoon Choi, Ki-Woong Park†, "Deriving Requirements for Providing Immortal Cloud Services" KIISC Summer Conference (CISC-S'20), Vol.30, No.1, pp.540-543, 2020.07.15
+- [DC6] Sang-Hoon Choi*, Byeong-Yong Yi, Geon-Ho Park, Ki-Woong Park†, "An Ultra-Low-Latency Resource Metering Module for Accurate Billing in Serverless Platforms" KIISC Winter Conference (CISC-W'19), Vol.29, No.2, pp.332-336, 2019.11.30, Outstanding Paper Award
+- [DC5] Jun-Gyu Park*, Gi-Wan Kang, Yang-Jae Lee, Sang-Hoon Choi, Ki-Woong Park†, "Considerations for Adopting an Open Cloud OS in Defense Command and Control Systems" 2019 Korea Institute of Information Security and Cryptology Chungcheong Chapter (KIISC CC 2019), 2019.10.18-29
+- [DC4] Eun-Tae Jang*, Sang-Hoon Choi, Ki-Woong Park†, "Deriving Analysis Framework Requirements for Efficient Virtualization System Profiling" Spring Conference of the Next Generation Computing Society, pp.7-19, 2019.5.10-11
+- [DC3] Sang-Hoon Choi*, Woo-Jin Jeon, Ye-Eun Koo, Chang-Ho Seo, Ki-Woong Park†, "A Ransomware Detection Framework in Cloud Platforms Using Virtual Memory Monitoring" KIISC Summer Conference (CISC 2017), 2017.6.22-23
+- [DC2] Sang-Hoon Choi*, Woo-Jin Jeon, Seong-Jin Kim, Hyeong-Cheon Kim, Ki-Woong Park†, "A Container Escape Detection Framework Using Memory Trap Techniques" Summer Conference of the Next Generation Computing Society, 2017.6.16-17, Outstanding Paper Award
+- [DC1] Sang-Hoon Choi*, Ki-Woong Park†, "A Malware Detection System via Partial Memory Dumps for Cloud Instances" KIISC Winter Conference (CISC 2016), 2016.12.9, Best Paper Award

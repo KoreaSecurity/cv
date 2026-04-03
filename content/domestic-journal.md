@@ -1,10 +1,10 @@
-- [DJ10] 박지훈*, 최상훈, 박기웅†, “피싱 캠페인의 동향 조사 및 피싱 탐지기법에 대한 분류” 정보처리학회논문지 (KCI등재지) (ISSN: 3022-7011), Vol. 14 No. 3, pp.149-160 (2025년 3월)
-- [DJ9] 김미연*, 최상훈, 박기웅†, “소프트웨어 공급망 공격에서의 클라우드 악용 사례 및 완화 방안 분석” 정보보호학회지 (ISSN: 1598-3978), Vol. 35 No. 1, pp.49-56 (2025년 2월)
-- [DJ8] 최재민*, 최상훈, 박기웅†, “시스템 API 호출 순서 정보를 통한 안드로이드 악성 코드 패밀리 분류 기법” 정보보호학회논문지 (KCI등재지) (ISSN: 2288-2715), Vol. 35 No. 1, pp.67-78 (2025년 2월)
-- [DJ7] 최기상*, 최상훈, 박기웅†, “코드패치 및 하이브리드 분석 환경을 활용한 악성코드 데이터셋 추출 프레임워크 설계” 정보보호학회논문지, 2024년 6월.
-- [DJ6] 장은태*, 최상훈, 박기웅†, “효율적인 가상화 시스템 프로파일링을 위한 성능 측정 프레임워크” 한국차세대컴퓨팅학회 논문지, 2019년 6월.
-- [DJ5] 최상훈*, 박준규, 박기웅†, “안전한 컨테이너 환경 구축/운영을 위한 보안 위협 검증 자동화 플랫폼” 한국차세대컴퓨팅학회 논문지, 2018년 10월.
-- [DJ4] 최상훈*, 박기웅†, “클라우드 보안성 강화를 위한 연산효율적인 인스턴스 메모리 모니터링 기술” 정보보호학회논문지, 2017년 8월.
-- [DJ3] 최상훈*, 전우진, 박기웅†, “메모리 트랩기법을 활용한 컨테이너 취약점 침입 탐지 프레임워크” 한국차세대컴퓨팅학회 논문지, 2017년 6월.
-- [DJ2] 최상훈*, 박기웅†, “Mem-Shot: 악성코드 난독화 분석을 위한 API-Trigger 기반의 메모리 덤프 시스템 설계 및 구현” 한국차세대컴퓨팅학회 논문지, 2016년 9월.
-- [DJ1] 박달용*, 최상훈, 최동훈, 박기웅†, “워크플로우 모델링을 통한 IaaS 클라우드 플랫폼 구축 최적화” 한국차세대컴퓨팅학회 논문지, Vol. 10 No. 6, pp. 36-45, 2014년 12월.
+- [DJ10] Ji-Hoon Park*, Sang-Hoon Choi, Ki-Woong Park†, "A Trend Analysis of Phishing Campaigns and a Taxonomy of Phishing Detection Techniques" Journal of KIPS (KCI-Indexed) (ISSN: 3022-7011), Vol. 14 No. 3, pp.149-160 (Mar 2025)
+- [DJ9] Mi-Yeon Kim*, Sang-Hoon Choi, Ki-Woong Park†, "Analysis of Cloud Abuse Cases and Mitigation Strategies in Software Supply Chain Attacks" KIISC Review (ISSN: 1598-3978), Vol. 35 No. 1, pp.49-56 (Feb 2025)
+- [DJ8] Jae-Min Choi*, Sang-Hoon Choi, Ki-Woong Park†, "Android Malware Family Classification Using System API Call Sequence Information" Journal of KIISC (KCI-Indexed) (ISSN: 2288-2715), Vol. 35 No. 1, pp.67-78 (Feb 2025)
+- [DJ7] Gi-Sang Choi*, Sang-Hoon Choi, Ki-Woong Park†, "Design of a Malware Dataset Extraction Framework Using Code Patching and Hybrid Analysis Environments" Journal of KIISC, Jun 2024
+- [DJ6] Eun-Tae Jang*, Sang-Hoon Choi, Ki-Woong Park†, "A Performance Measurement Framework for Efficient Virtualization System Profiling" Journal of Next Generation Computing, Jun 2019
+- [DJ5] Sang-Hoon Choi*, Jun-Gyu Park, Ki-Woong Park†, "An Automated Security Threat Verification Platform for Building and Operating Secure Container Environments" Journal of Next Generation Computing, Oct 2018
+- [DJ4] Sang-Hoon Choi*, Ki-Woong Park†, "A Computationally Efficient Instance Memory Monitoring Technique for Strengthening Cloud Security" Journal of KIISC, Aug 2017
+- [DJ3] Sang-Hoon Choi*, Woo-Jin Jeon, Ki-Woong Park†, "A Container Vulnerability Intrusion Detection Framework Using Memory Trap Techniques" Journal of Next Generation Computing, Jun 2017
+- [DJ2] Sang-Hoon Choi*, Ki-Woong Park†, "Mem-Shot: Design and Implementation of an API-Trigger-Based Memory Dump System for Malware Obfuscation Analysis" Journal of Next Generation Computing, Sep 2016
+- [DJ1] Dal-Yong Park*, Sang-Hoon Choi, Dong-Hoon Choi, Ki-Woong Park†, "Optimization of IaaS Cloud Platform Deployment Through Workflow Modeling" Journal of Next Generation Computing, Vol. 10 No. 6, pp. 36-45, Dec 2014

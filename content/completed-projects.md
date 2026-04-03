@@ -1,17 +1,17 @@
-- [PJ17] 2023.05 – 2023.11, “위협정보 데이터셋 대상 아티팩트 추출 및 아카이빙 기술 연구” 국가보안기술연구소 위탁연구사업 (Project No.2023-111)
-- [PJ16] 2020.03 – 2023.02, “IoT 침해사고 대응을 위한 지능형 분석 플랫폼 기술 연구” 한국연구재단(NRF) 중견연계연구지원사업 (Project No.2020R1A2C400273713)
-- [PJ15] 2019.04 – 2021.12, “지상전술C4I체계 단말에 개방형OS(Linux) 적용 문제 해결” IITP 정보통신방송기술개발사업 (Project No.2019-0-00273)
-- [PJ14] 2021.04 – 2021.10, “무인이동체 이상행위 분석을 위한 시험환경 구축 기법 연구” 국가보안기술연구소 연구과제 (Project No.2021-072)
-- [PJ13] 2021.04 – 2021.10, “클라우드 컴퓨팅 보안사고 사례 분석을 통한 안전성 검증 요소 연구” 국가보안기술연구소 연구과제 (Project No.2021-086)
-- [PJ12] 2018.04 – 2020.12, “API 호출 단위 자원 할당 및 사용량 계량이 가능한 서버리스 클라우드 컴퓨팅 기술 개발” IITP 정보통신방송연구개발사업 (Project No.2018-0-00420)
-- [PJ11] 2017.03 – 2020.02, “클라우드 플랫폼의 심층 보안관제 및 포렌식을 위한 Replayable Cloud-Memory 원천기술 개발” 한국연구재단 신진연구지원사업 (NRF-2017R1C1B2003957), 290M
-- [PJ10] 2019.05 – 2019.10, “머신러닝 기반 대용량 사고조사 수집정보 식별 및 분석기술 연구” 국가보안기술연구소 연구과제 (Project No.2019-025)
-- [PJ9] 2018.02 – 2019.02, “RTOS 시큐어 부팅 및 위/변조 방지 기술 연구” 국방과학기술연구소 위탁연구과제, 80M
-- [PJ8] 2016.06 – 2019.02, “핀테크 서비스를 위한 금융보안 핵심기술 개발” 한국연구재단 기초연구실지원사업 (NRF-2016R1A4A1011761), 210M
-- [PJ7] 2018.04 – 2018.10, “컨테이너 인스턴스 보안 모니터링 기술 연구” 국가보안기술연구소 연구과제, 50M
-- [PJ6] 2018.02 – 2018.06, “클라우드 기반 창업 플랫폼 서비스 제공을 위한 보안체계 구축 방안 연구” NIPA 위탁연구사업, 10M
-- [PJ5] 2017.05 – 2017.10, “4차산업혁명 대응 기반 환경에 대한 안전성/보안성 강화를 위한 요소기술 도출 및 로드맵 연구” 국가보안기술연구소(NSR) 연구사업, 35M
-- [PJ4] 2017.04 – 2017.10, “클라우드 자원 공동임차 위협 대응 및 사고대응 기술 연구” 국가보안기술연구소(NSR) 공동연구사업, 40M
-- [PJ3] 2015.07 – 2017.02, “포그컴퓨팅 기반의 미시적/거시적 행위 분석을 통한 내부정보 통제 솔루션 개발” 지역혁신창의인력 양성사업 (2015H1C1A1035859), 150M
-- [PJ2] 2016.04 – 2016.11, “클라우드 가상머신 격리/분석 및 사고대응 기술 연구” 국가보안기술연구소(NSR) 공동연구과제, 310M
-- [PJ1] 2013.08 – 2013.11, “Secure Hadoop 플랫폼 구축을 위한 보안 시스템 구조 프로토타입 개발” KT 원천기술 용역개발사업, 35M
+- [PJ17] 2023.05 - 2023.11, "Research on Artifact Extraction and Archiving Technologies for Threat Intelligence Datasets" National Security Research Institute Commissioned Research Project (Project No.2023-111)
+- [PJ16] 2020.03 - 2023.02, "Research on an Intelligent Analysis Platform for Responding to IoT Security Incidents" National Research Foundation of Korea Mid-Career Linked Research Support Program (Project No.2020R1A2C400273713)
+- [PJ15] 2019.04 - 2021.12, "Resolving Issues in Applying Open OS (Linux) to Ground Tactical C4I Terminals" IITP ICT Broadcasting Technology Development Program (Project No.2019-0-00273)
+- [PJ14] 2021.04 - 2021.10, "Research on Testbed Construction Techniques for Anomalous Behavior Analysis in Unmanned Vehicles" National Security Research Institute Research Project (Project No.2021-072)
+- [PJ13] 2021.04 - 2021.10, "Research on Safety Verification Elements Through Analysis of Cloud Computing Security Incident Cases" National Security Research Institute Research Project (Project No.2021-086)
+- [PJ12] 2018.04 - 2020.12, "Development of Serverless Cloud Computing Technologies Enabling API-Level Resource Allocation and Usage Metering" IITP ICT Broadcasting R&D Program (Project No.2018-0-00420)
+- [PJ11] 2017.03 - 2020.02, "Development of Replayable Cloud-Memory Core Technologies for In-Depth Security Monitoring and Forensics in Cloud Platforms" National Research Foundation of Korea Early-Career Research Program (NRF-2017R1C1B2003957), 290M
+- [PJ10] 2019.05 - 2019.10, "Research on Machine-Learning-Based Identification and Analysis Technologies for Large-Scale Incident Investigation Collection Data" National Security Research Institute Research Project (Project No.2019-025)
+- [PJ9] 2018.02 - 2019.02, "Research on RTOS Secure Boot and Tamper Prevention Technologies" Agency for Defense Development Commissioned Research Project, 80M
+- [PJ8] 2016.06 - 2019.02, "Development of Core Financial Security Technologies for FinTech Services" National Research Foundation of Korea Basic Research Laboratory Program (NRF-2016R1A4A1011761), 210M
+- [PJ7] 2018.04 - 2018.10, "Research on Security Monitoring Technologies for Container Instances" National Security Research Institute Research Project, 50M
+- [PJ6] 2018.02 - 2018.06, "Research on Establishing a Security Framework for Providing Cloud-Based Startup Platform Services" NIPA Commissioned Research Project, 10M
+- [PJ5] 2017.05 - 2017.10, "Research on Deriving Core Technologies and a Roadmap for Strengthening Safety and Security in Environments Responding to the Fourth Industrial Revolution" National Security Research Institute Research Program, 35M
+- [PJ4] 2017.04 - 2017.10, "Research on Threat Response and Incident Handling Technologies for Shared Cloud Resource Leasing" National Security Research Institute Collaborative Research Project, 40M
+- [PJ3] 2015.07 - 2017.02, "Development of an Insider Information Control Solution Through Microscopic and Macroscopic Behavior Analysis Based on Fog Computing" Regional Innovation Creative Talent Development Program (2015H1C1A1035859), 150M
+- [PJ2] 2016.04 - 2016.11, "Research on Cloud Virtual Machine Isolation, Analysis, and Incident Response Technologies" National Security Research Institute Collaborative Research Project, 310M
+- [PJ1] 2013.08 - 2013.11, "Prototype Development of a Security System Architecture for Building a Secure Hadoop Platform" KT Core Technology Development Project, 35M

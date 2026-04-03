@@ -1,17 +1,17 @@
-- [A17] 최상훈, AI를 활용한 취약점 발굴 시스템 공모전 - 우수상, 2025.11.24
-- [A16] 한희수, 최상훈, 박기웅†, “정보보호학회장상”, 한국정보보호학회, 2025.11.27
-- [A15] 김미연, 최상훈, 박기웅†, “한국인터넷진흥원 원장상”, 한국정보처리학회, 2025.11.08
-- [A14] 황혜경, 이지원, 백지은, 성아영, 최상훈, 박기웅†, “우수논문상”, 2025 한국정보보호학회 하계학술대회 (CISC-S’25), 2025.06.24-25
-- [A13] 최상훈, 장은태, 첨단AI 디지털 의료제품 레드팀 챌린지 - 우수상, 2025.09.04
-- [A12] 장수혁, 최상훈, 박기웅†, “부채널분석연구회 회장상”, 부채널정보분석 경진대회, 2025.07.02
-- [A11] 박지훈, 최상훈, 박기웅†, “정보처리학회 우수논문상”, 한국정보처리학회, 2024.11.01
-- [A10] 김상현, 최상훈, 박기웅†, “부채널분석연구회 회장상” 부채널정보분석 경진대회, 2024.07.04.
-- [A9] 최재민, 최상훈, 박기웅†, “정보보호학회장상” 한국정보보호학회, 2024.06.20.
-- [A8] 정혜림, 최상훈, Mohesh Ali Alawami, 안성규, 박기웅†, “한국사이버안보학회장 기술 분야 장려상” 한국사이버안보학회, 2023.10.11.
-- [A7] 최기상, 최상훈, 박기웅†, “국가보안기술연구소 우수논문상” 한국정보보호학회, 2023.06.22.
-- [A6] 최상훈, 박기웅†, “대상” 사이버안보 논문 공모전, 2021.10.05.
-- [A5] 최상훈, 박기웅†, “장려상” 사이버안보 논문 공모전, 2020.09.23.
-- [A4] 최상훈, 이병용, 박건호, 박기웅†, “우수논문상” 한국정보보호학회 동계학술대회, 2019.11.30.
-- [A3] 장은태, 최상훈, 박기웅†, “장려상” 한국차세대컴퓨팅학회 춘계학술대회, 2019.05.10.
-- [A2] 최상훈, 박기웅†, “우수논문상” 한국차세대컴퓨팅학회 하계학술대회, 2017.06.16.
-- [A1] 최상훈, 박기웅†, “최우수논문상 (ETRI 소장상)” 한국정보보호학회 동계학술대회 (CISC 2016), 2016.12.09.
+- [A17] Sang-Hoon Choi, AI-Driven Vulnerability Discovery System Contest - Excellence Award, 2025.11.24
+- [A16] Hee-Soo Han, Sang-Hoon Choi, Ki-Woong Park†, "KIISC President Award", Korea Institute of Information Security and Cryptology, 2025.11.27
+- [A15] Mi-Yeon Kim, Sang-Hoon Choi, Ki-Woong Park†, "KISA President Award", Korea Information Processing Society, 2025.11.08
+- [A14] Hye-Kyung Hwang, Ji-Won Lee, Ji-Eun Baek, A-Young Seong, Sang-Hoon Choi, Ki-Woong Park†, "Outstanding Paper Award", 2025 KIISC Summer Conference (CISC-S'25), 2025.06.24-25
+- [A13] Sang-Hoon Choi, Eun-Tae Jang, Advanced AI Digital Medical Product Red Team Challenge - Excellence Award, 2025.09.04
+- [A12] Su-Hyeok Jang, Sang-Hoon Choi, Ki-Woong Park†, "Chair Award", Side-Channel Analysis Research Group Competition, 2025.07.02
+- [A11] Ji-Hoon Park, Sang-Hoon Choi, Ki-Woong Park†, "KIPS Outstanding Paper Award", Korea Information Processing Society, 2024.11.01
+- [A10] Sang-Hyun Kim, Sang-Hoon Choi, Ki-Woong Park†, "Chair Award", Side-Channel Analysis Research Group Competition, 2024.07.04
+- [A9] Jae-Min Choi, Sang-Hoon Choi, Ki-Woong Park†, "KIISC President Award", Korea Institute of Information Security and Cryptology, 2024.06.20
+- [A8] Hye-Lim Jung, Sang-Hoon Choi, Mohesh Ali Alawami, Sung-Kyu Ahn, Ki-Woong Park†, "Encouragement Award in Technology Division", Korea Cybersecurity Society, 2023.10.11
+- [A7] Gi-Sang Choi, Sang-Hoon Choi, Ki-Woong Park†, "NSR Outstanding Paper Award", Korea Institute of Information Security and Cryptology, 2023.06.22
+- [A6] Sang-Hoon Choi, Ki-Woong Park†, "Grand Prize", Cybersecurity Paper Contest, 2021.10.05
+- [A5] Sang-Hoon Choi, Ki-Woong Park†, "Encouragement Award", Cybersecurity Paper Contest, 2020.09.23
+- [A4] Sang-Hoon Choi, Byeong-Yong Yi, Geon-Ho Park, Ki-Woong Park†, "Outstanding Paper Award", KIISC Winter Conference, 2019.11.30
+- [A3] Eun-Tae Jang, Sang-Hoon Choi, Ki-Woong Park†, "Encouragement Award", Spring Conference of the Next Generation Computing Society, 2019.05.10
+- [A2] Sang-Hoon Choi, Ki-Woong Park†, "Outstanding Paper Award", Summer Conference of the Next Generation Computing Society, 2017.06.16
+- [A1] Sang-Hoon Choi, Ki-Woong Park†, "Best Paper Award (ETRI President Award)", KIISC Winter Conference (CISC 2016), 2016.12.09

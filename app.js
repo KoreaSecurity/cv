@@ -1,4 +1,5 @@
 const targets = document.querySelectorAll("[data-md]");
+const summaryTarget = document.querySelector("[data-auto-summary]");
 
 function extractEntryId(text) {
   const match = text.match(/^\[([^\]]+)\]\s*/);
@@ -180,6 +181,48 @@ function enhanceProfileLinks() {
   });
 }
 
+function buildSectionToggleButton() {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "section-toggle";
+  button.setAttribute("aria-expanded", "true");
+  button.innerHTML =
+    '<span class="section-toggle-icon" aria-hidden="true">-</span><span class="section-toggle-label">Hide items</span>';
+  return button;
+}
+
+function enhanceSectionToggles() {
+  document.querySelectorAll(".section, .subpage-main").forEach((container) => {
+    const list = container.querySelector(".long-list");
+    const header = container.querySelector(".section-heading, .page-title");
+    if (!list || !header || header.querySelector(".section-toggle")) return;
+
+    const title = header.querySelector("h2, h1");
+    if (!title) return;
+
+    let bar = header.querySelector(".section-header-bar");
+    if (!bar) {
+      bar = document.createElement("div");
+      bar.className = "section-header-bar";
+      header.insertBefore(bar, header.firstChild);
+      bar.appendChild(title);
+    }
+
+    const button = buildSectionToggleButton();
+    button.addEventListener("click", () => {
+      const expanded = button.getAttribute("aria-expanded") === "true";
+      button.setAttribute("aria-expanded", expanded ? "false" : "true");
+      button.querySelector(".section-toggle-icon").textContent = expanded ? "+" : "-";
+      button.querySelector(".section-toggle-label").textContent = expanded
+        ? "Show items"
+        : "Hide items";
+      list.hidden = expanded;
+    });
+
+    bar.appendChild(button);
+  });
+}
+
 function decorateSectionTitles() {
   document.querySelectorAll(".section-heading h2, .page-title h1").forEach((el) => {
     if (el.querySelector(".title-icon")) return;
@@ -209,7 +252,74 @@ async function renderMarkdown(target) {
   }
 }
 
+async function countMarkdownItems(path) {
+  const response = await fetch(path);
+  if (!response.ok) {
+    throw new Error(`Failed to load ${path}`);
+  }
+
+  const text = await response.text();
+  return text
+    .split("\n")
+    .filter((line) => line.trim().startsWith("- ")).length;
+}
+
+async function renderAutoSummary() {
+  if (!summaryTarget) return;
+
+  try {
+    const [
+      cves,
+      awards,
+      intlJournal,
+      domJournal,
+      intlConf,
+      domConf,
+      software,
+      patents,
+    ] = await Promise.all([
+      countMarkdownItems("./content/cves.md"),
+      countMarkdownItems("./content/awards.md"),
+      countMarkdownItems("./content/international-journal.md"),
+      countMarkdownItems("./content/domestic-journal.md"),
+      countMarkdownItems("./content/international-conference.md"),
+      countMarkdownItems("./content/domestic-conference.md"),
+      countMarkdownItems("./content/software-registration.md"),
+      countMarkdownItems("./content/patents.md"),
+    ]);
+
+    const stats = [
+      ["Public CVEs", cves],
+      ["Awards and Honors", awards],
+      ["Journal Papers", intlJournal + domJournal],
+      ["Conference Papers", intlConf + domConf],
+      ["Software Registrations", software],
+      ["Patents", patents],
+    ];
+
+    summaryTarget.innerHTML = `
+      <ul>
+        ${stats
+          .map(
+            ([label, value]) => `
+              <li>
+                <p>${label}</p>
+                <strong>${value}</strong>
+              </li>
+            `
+          )
+          .join("")}
+      </ul>
+    `;
+  } catch (error) {
+    summaryTarget.innerHTML = `<p class="md-error">Summary could not be loaded.</p>`;
+    console.error(error);
+  }
+}
+
 Promise.all([...targets].map(renderMarkdown)).then(() => {
   enhanceProfileLinks();
   decorateSectionTitles();
+  enhanceSectionToggles();
+  renderAutoSummary();
 });

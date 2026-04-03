@@ -1,6 +1,6 @@
 - Public CVEs **15**
 - Awards and Honors **16**
-- International Journal Papers **6**
-- International Conference Papers **18**
-- Software Registrations **10**
+- International Journal Papers **7**
+- International Conference Papers **26**
+- Software Registrations **11**
 - Patents **4**

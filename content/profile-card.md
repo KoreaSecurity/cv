@@ -8,7 +8,9 @@ Research Professor
 - Sejong University
 - Department of Information Security
 - SysCore Lab
-- Ph.D. completed in 2023
+- Ph.D., Information Security, Sejong University
+- Post-Doctoral, Sejong University, 2023-2024
+- Research Professor, Sejong University, 2024-present
 
 [Email](mailto:csh0052@gmail.com)
 [Google Scholar](https://scholar.google.com/citations?user=jMf2NN0AAAAJ&hl=ko)

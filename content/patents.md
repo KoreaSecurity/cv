@@ -1,0 +1,4 @@
+- [P4] 최상훈, 조여름, 박기웅, “클라우드 플랫폼 환경에서의 가상머신 커널 런타임 보호 시스템“, “Virtual Machine Kernel Runtime Protection System in a Cloud Platform Environment”, 출원번호: 10-2022-0162199, 출원일: 2022.11.29
+- [P3] 최상훈, 박기웅, “보안 앱 오케스트레이션을 위한 프로세스 하이버네이션 시스템“, “Process hibernation system for secure app orchestration”, 출원번호: 10-2022-0162182, 출원일: 2022.11.29
+- [P2] 최상훈, 박기웅, “가상화 환경에서 인스턴스의 메모리를 연속적으로 기록하는 방법 및 장치“, “Method and Apparatus for Continuous Recording the Memory of an Instance in a Virtualization Environment”, 출원번호: 10-2022-0031506, 출원일: 2022.03.14, 등록번호: 10-2656980, 등록일: 2024.4.8
+- [P1] 최상훈, 이병용, 박기웅, “클라우드 플랫폼 환경에서의 초-저지연 리소스 메트릭 수집 방법 및 시스템”, “Method and System for Collecting-Ultra-Low Latency Resource Usage Metrics in Cloud Platform”, 출원번호: 10-2020-0019490, 출원일: 2020.02.18, 등록번호: 10-2307900, 등록일: 2021.9.27

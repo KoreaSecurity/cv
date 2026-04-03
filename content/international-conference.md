@@ -1,0 +1,18 @@
+- [IC18] Mi-Yeon Kim*, Sang-Hoon Choi, and Ki-Woong Park†, “Revealing Hidden Contention through Disk I/O Analysis in Multi-Tenant Containers,” The 26th World Conference on Information Security Applications 2025 (WISA 2025), Aug 20-22, 2025, Jeju, Korea
+- [IC17] Jae-Min Choi*, Sang-Hoon Choi, and Ki-Woong Park†, “Interaction-Aware System Call Sequence Analysis for Android Malware Classification,” The 26th World Conference on Information Security Applications 2025 (WISA 2025), Aug 20-22, 2025, Jeju, Korea
+- [IC16] Arpita Dinesh Sarang*, Sang-Hoon Choi, Ki-Woong Park†, “Plotting OSS-based Supply Chain attack strategies and the defense failure,” The 25th World Conference on Information Security Applications (WISA 2024), Aug 2024.
+- [IC15] In Hoe Ku*, Sang-Hoon Choi, Ki-Woong Park†, “A Study for Decrease False Positive and False Negative Antivirus Technique in File Partial Encryption,” The 7th International Symposium on Mobile Internet Security (MobeSec 2023), Dec 2023.
+- [IC14] HyeLim Jung*, Sang-Hoon Choi, Mohsen Ali Alawami, Sung-Kyu Ahn, Ki-Woong Park†, “I Know Where You Are: A Non-intrusive Geospatial–Electrical Authentication System,” IEEE 6th International Conference on Artificial Intelligence and Knowledge Engineering (AIKE 2023), Sep 2023.
+- [IC13] Sung-Kyu Ahn*, Sang-Hoon Choi, Ki-Woong Park†, “Side-Channel Based Device Authentication in Wireless Charging: An Experimental Study,” IEEE AIKE 2023, Sep 2023.
+- [IC12] Joo-Young Roh*, Sang-Hoon Choi, Ki-Woong Park†, “CO-TRIS: Container Orchestration-Transforming Container using Resource Inspection System,” IEEE AIKE 2023, Sep 2023.
+- [IC11] Sang-Hoon Choi*, Seong-Jin Kim, Hanjin Park, Ki-Woong Park†, “Application Hibernation Framework with Dynamic Throttling of Resources,” The 6th International Symposium on Mobile Internet Security (MobiSec 2022), Dec 2022.
+- [IC10] Sang-Hoon Choi*, Ki-Woong Park†, “Timeline-Based Container Restore via a Computationally Efficient Snapshot,” The 6th International Conference on Next Generation Computing (ICNGC 2020), Dec 2020.
+- [IC9] Byeong-Yong Yi*, Sang-Hoon Choi, Ki-Woong Park†, “Resource Usage Monitoring in Cloud Environment: Approach via Linux Kernel Module,” The 5th International Conference on Next Generation Computing (ICNGC 2019), Dec 2019.
+- [IC8] Sang-Hoon Choi*, Daeseon Choi†, Ki-Woong Park†, “Usability of Docker-based Container System Health Monitoring by Memory Dump Visualization,” The 3rd International Conference on Next Generation Computing (ICNGC 2017), Dec 2017.
+- [IC7] Woo-Jin Jeon*, Sang-Hoon Choi, Ki-Woong Park†, “Detecting Ransomware with File System-Awareness Scheme in Cloud Computing Environment,” The 3rd International Conference on Next Generation Computing (ICNGC 2017), Dec 2017.
+- [IC6] Keon-Ho Park*, Sang-Hoon Choi, Chul-Woo Kim, Ki-Woong Park†, “Usability of Software Weakness Discovery based on the Binary File Visualization,” ICNGC 2017, Dec 2017.
+- [IC5] Young Jun Lee*, Sang-Hoon Choi, Chul-Woo Kim, Seung-Ho Lim, Ki-Woong Park†, “Learning Binary Code with Deep Learning to Detect Software Weakness,” KSII ICONI 2017, Dec 2017.
+- [IC4] Sang-Hoon Choi*, Woomin Hwang, Ki-Woong Park†, “Towards Software-Defined Malware Analysis with a Deep Introspection,” Future Computational Technologies and Applications, Feb 2017.
+- [IC3] Yu-Seong Kim*, Sang-Hoon Choi, Ki-Woong Park†, “Customizing Cuckoo Sandbox for Malware with Tricky Execution Conditions,” Next Generation Computing 2017.
+- [IC2] Sang-Hoon Choi*, Sung-Kyu Ahn, Dongmin Yang, Ki-Woong Park†, “Secret-Stamp: Document Leakage Prevention via Steganographic Marking,” Next Generation Computing 2017.
+- [IC1] Sang-Hoon Choi*, Yu-Seong Kim, Ki-Woong Park†, “Toward Semantic Gap-less Memory Dump for Malware Analysis,” Next Generation Computing 2016.

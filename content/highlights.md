@@ -1,6 +1,6 @@
 - **CVE**  
-  2024년부터 2026년까지 공개된 CVE 다수를 보유하고 있으며, MinIO, VMware Tanzu, Pipeline 계열 등 실제 운영 환경과 맞닿은 취약점 사례가 포함되어 있습니다.
+  Multiple public CVEs disclosed from 2024 to 2026, including findings related to MinIO, VMware Tanzu, pipeline environments, and other real-world operational targets.
 - **RESEARCH**  
-  Journal of Network and Computer Applications, Future Generation Computer Systems, Sensors, WISA, IEEE AIKE 등에서 시스템 및 클라우드 보안 연구를 지속적으로 발표했습니다.
+  Continued publication of system and cloud security research in venues such as *Journal of Network and Computer Applications*, *Future Generation Computer Systems*, *Sensors*, WISA, and IEEE AIKE.
 - **PROJECT**  
-  IITP, KRIT, NRF, NSR 등과 연계된 다수의 보안 과제에 참여하며 클라우드, 랜섬웨어, 메타버스, 국방 시스템 보안 주제를 수행하고 있습니다.
+  Ongoing participation in major security projects supported by IITP, KRIT, NRF, and NSR, covering cloud security, ransomware, metaverse environments, and defense system security.

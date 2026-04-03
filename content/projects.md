@@ -1,6 +1,6 @@
 - **PJ25**  
-  2024.06 - 2026.12. 무인이동체 제어권 상실시 중요정보 완전소거를 위한 킬스위치 기술 개발.
+  2024.06 - 2026.12. Development of kill-switch technology for complete erasure of sensitive information upon loss of control of unmanned vehicles.
 - **PJ23**  
-  2023.03 - 2026.12. 강인한 IoT 및 클라우드 시스템을 위한 전방위적 공격벡터 능동추출 및 사이버 면역력 강화 기술 연구.
+  2023.03 - 2026.12. Research on proactive extraction of multi-dimensional attack vectors and strengthening cyber immunity for resilient IoT and cloud systems.
 - **PJ21**  
-  2022.07 - 2024.12. 랜섬웨어 침해사고 전주기적 능동대응을 위한 다각적 수집-분석-대응 플랫폼 개발.
+  2022.07 - 2024.12. Development of a multi-faceted collection, analysis, and response platform for active end-to-end response to ransomware incidents.

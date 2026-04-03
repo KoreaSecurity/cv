@@ -1,11 +1,11 @@
-- [SW11] 최상훈, 박기웅, 노주영, 박지훈, “대규모언어모델(LLM)을 활용한 모바일 앱 설치파일(APK) 분류 시스템” 등록번호: C-2023-063688, 등록일: 2023.12.28.
-- [SW10] 최상훈, 박기웅, “리눅스 운영체제 환경에서의 윈도우즈 운영체제 실행 가능 파일 아티팩트 추출 모듈” 등록번호: C-2023-063687, 등록일: 2023.12.28.
-- [SW9] 박기웅, 조여름, 최상훈, “논블로킹 방식의 커널 무결성 검사 모듈” 등록번호: C-2022-046302, 등록일: 2022.11.03.
-- [SW8] 최상훈, 박기웅, “컨테이너 미터링 데이터 위변조 방지 시스템” 등록번호: C-2020-053005, 등록일: 2020.12.29.
-- [SW7] 최상훈, 박기웅, “컨테이너 리소스 제어 관리 시스템” 등록번호: C-2020-052823, 등록일: 2020.12.28.
-- [SW6] 최상훈, 박기웅, 이병용, 박건호, “컨테이너 메모리 메트릭 수집 모듈 제어 시스템” 등록번호: C-2019-034209, 등록일: 2019.11.19.
-- [SW5] 최상훈, 박기웅, 장은태, “디스크 덤프 기반 Windows Aging 측정 시스템” 등록번호: C-2019-034208, 등록일: 2019.11.19.
-- [SW4] 최상훈, 박기웅, 이병용, 박건호, 장은태, “컨테이너 메모리 리소스 모니터링 커널 모듈” 등록번호: C-2019-034206, 등록일: 2019.11.19.
-- [SW3] 최상훈, 박기웅, 전우진, “컨테이너 스토리지 이벤트 기록 시스템” 등록번호: C-2018-034558, 등록일: 2018.11.23.
-- [SW2] 최상훈, 박기웅, 김시은, “컨테이너 메모리 리소스 미터링 성능 테스트를 위한 웹 서비스” 등록번호: C-2018-034557, 등록일: 2018.11.23.
-- [SW1] 최상훈, 박기웅, “컨테이너 메모리 리소스 모니터링 시스템” 등록번호: C-2018-034556, 등록일: 2018.11.23.
+- [SW11] Sang-Hoon Choi, Ki-Woong Park, Joo-Young Roh, Ji-Hoon Park, "Mobile App Installation File (APK) Classification System Using a Large Language Model (LLM)" Registration No.: C-2023-063688, Registration Date: 2023.12.28
+- [SW10] Sang-Hoon Choi, Ki-Woong Park, "Executable File Artifact Extraction Module for Windows Binaries in Linux Operating System Environments" Registration No.: C-2023-063687, Registration Date: 2023.12.28
+- [SW9] Ki-Woong Park, Yeo-Reum Jo, Sang-Hoon Choi, "Non-Blocking Kernel Integrity Inspection Module" Registration No.: C-2022-046302, Registration Date: 2022.11.03
+- [SW8] Sang-Hoon Choi, Ki-Woong Park, "Anti-Tampering System for Container Metering Data" Registration No.: C-2020-053005, Registration Date: 2020.12.29
+- [SW7] Sang-Hoon Choi, Ki-Woong Park, "Container Resource Control Management System" Registration No.: C-2020-052823, Registration Date: 2020.12.28
+- [SW6] Sang-Hoon Choi, Ki-Woong Park, Byeong-Yong Yi, Geon-Ho Park, "Control System for Collecting Container Memory Metrics" Registration No.: C-2019-034209, Registration Date: 2019.11.19
+- [SW5] Sang-Hoon Choi, Ki-Woong Park, Eun-Tae Jang, "Disk-Dump-Based Windows Aging Measurement System" Registration No.: C-2019-034208, Registration Date: 2019.11.19
+- [SW4] Sang-Hoon Choi, Ki-Woong Park, Byeong-Yong Yi, Geon-Ho Park, Eun-Tae Jang, "Kernel Module for Monitoring Container Memory Resources" Registration No.: C-2019-034206, Registration Date: 2019.11.19
+- [SW3] Sang-Hoon Choi, Ki-Woong Park, Woo-Jin Jeon, "Container Storage Event Logging System" Registration No.: C-2018-034558, Registration Date: 2018.11.23
+- [SW2] Sang-Hoon Choi, Ki-Woong Park, Si-Eun Kim, "Web Service for Performance Testing of Container Memory Resource Metering" Registration No.: C-2018-034557, Registration Date: 2018.11.23
+- [SW1] Sang-Hoon Choi, Ki-Woong Park, "Container Memory Resource Monitoring System" Registration No.: C-2018-034556, Registration Date: 2018.11.23

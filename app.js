@@ -16,6 +16,15 @@ function extractQuotedTitle(text) {
   return match ? match[1] : "";
 }
 
+function extractAwardTitle(text) {
+  const withoutDate = text.replace(/,?\s*\d{4}(?:\.\d{2}\.\d{2})?(?:-\d{2})?\.?$/, "").trim();
+  const parts = withoutDate
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  return parts[parts.length - 1] || "";
+}
+
 function extractDate(text) {
   const patterns = [
     /\b\d{4}\.\d{2}\.\d{2}\b/g,
@@ -92,6 +101,10 @@ function buildRichCard(li) {
   const kind = entryKindFromId(id, text);
 
   let title = quotedTitle;
+  if (!title && kind === "award") {
+    title = extractAwardTitle(text);
+  }
+
   if (!title) {
     const firstChunk = text.split(",")[0]?.trim() || text;
     title = firstChunk;
@@ -100,6 +113,12 @@ function buildRichCard(li) {
   let detail = text;
   if (quotedTitle) {
     detail = text.replace(/[“"][^”"]+[”"]/, "").replace(/\s+,/g, ",").trim();
+  } else if (kind === "award" && title) {
+    detail = text
+      .replace(title, "")
+      .replace(/\s+,/g, ",")
+      .replace(/^,\s*/, "")
+      .trim();
   } else if (title) {
     detail = text.replace(title, "").replace(/^,\s*/, "").trim();
   }
@@ -248,7 +267,7 @@ async function renderMarkdown(target) {
     target.innerHTML = marked.parse(markdown);
     enhanceLongLists(target);
   } catch (error) {
-    target.innerHTML = `<p class="md-error">${path} 파일을 불러오지 못했습니다.</p>`;
+    target.innerHTML = `<p class="md-error">Failed to load ${path}.</p>`;
     console.error(error);
   }
 }

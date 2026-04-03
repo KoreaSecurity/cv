@@ -559,6 +559,19 @@ h3,
   color: #8a3b2c;
 }
 
+.site-footer {
+  margin-top: 72px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.site-footer p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
 @media (max-width: 960px) {
   .home-layout {
     grid-template-columns: 1fr;

@@ -1,3 +1,4 @@
+- soon Google Chrome
 - CVE-2026-33322 minio
 - CVE-2026-33414
 - soon (Critical) 9.2

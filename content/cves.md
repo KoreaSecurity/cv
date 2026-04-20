@@ -1,7 +1,7 @@
 - soon Google Chrome
 - CVE-2026-33322 minio
 - CVE-2026-33414
-- soon (Critical) 9.2
+- CVE-2026-41323 kyverno (High) 8.1
 - CVE-2026-33211 pipeline (Critical) 9.6
 - CVE-2026-32637 VMWARE-Tanzu
 - CVE-2025-28343

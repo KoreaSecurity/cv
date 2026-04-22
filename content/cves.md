@@ -1,3 +1,5 @@
+- CVE-2026-6840
+- CVE-2026-6839 
 - soon Google Chrome
 - CVE-2026-33322 minio
 - CVE-2026-33414

@@ -1,6 +1,6 @@
 - CVE-2026-25705 rancher (High) 8.4
-- CVE-2026-6840
-- CVE-2026-6839 
+- CVE-2026-6840 samsung
+- CVE-2026-6839 samsung
 - soon Google Chrome
 - CVE-2026-33322 minio
 - CVE-2026-33414

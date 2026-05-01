@@ -1,7 +1,8 @@
 - CVE-2026-25705 rancher (High) 8.4
 - CVE-2026-6840 samsung
 - CVE-2026-6839 samsung
-- soon Google Chrome
+- soon Google Chrome - Reward
+- soon Google Chrome - Reward
 - CVE-2026-33322 minio
 - CVE-2026-33414 potman CVSS 8.8
 - CVE-2026-41323 kyverno (High) 8.1

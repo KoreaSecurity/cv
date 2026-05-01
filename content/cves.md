@@ -1,3 +1,4 @@
+- CVE-2026-25705 rancher (High) 8.4
 - CVE-2026-6840
 - CVE-2026-6839 
 - soon Google Chrome

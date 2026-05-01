@@ -3,7 +3,7 @@
 - CVE-2026-6839 samsung
 - soon Google Chrome
 - CVE-2026-33322 minio
-- CVE-2026-33414
+- CVE-2026-33414 potman CVSS 8.8
 - CVE-2026-41323 kyverno (High) 8.1
 - CVE-2026-33211 pipeline (Critical) 9.6
 - CVE-2026-32637 VMWARE-Tanzu

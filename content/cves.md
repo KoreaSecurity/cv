@@ -1,5 +1,5 @@
-- CVE-2026-47311 Samsung (High)
-- CVE-2026-47310 Samsung (High)
+- CVE-2026-47311 Samsung (High) - Heap Buffer Overflow
+- CVE-2026-47310 Samsung (High) - UAF
 - CVE-2026-47309 Samsung
 - CVE-2026-25705 rancher (High) 8.4
 - CVE-2026-6840 Samsung

@@ -1,6 +1,9 @@
+- CVE-2026-47311 Samsung (High)
+- CVE-2026-47310 Samsung (High)
+- CVE-2026-47309 Samsung
 - CVE-2026-25705 rancher (High) 8.4
-- CVE-2026-6840 samsung
-- CVE-2026-6839 samsung
+- CVE-2026-6840 Samsung
+- CVE-2026-6839 Samsung
 - soon Google Chrome - Reward
 - soon Google Chrome - Reward
 - CVE-2026-33322 minio

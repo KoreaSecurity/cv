@@ -1,3 +1,4 @@
+- CVE-2026-47775
 - CVE-2026-47312 Samsung
 - CVE-2026-47313 Samsung
 - CVE-2026-47314 Samsung

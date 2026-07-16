@@ -1,4 +1,14 @@
-- 
+- GHSA-rxjg-c99w-p4g2 open-telemetry
+- GHSA-62w4-9639-3m95 open-telemetry
+- GHSA-w374-g2mg-hjp4 open-telemetry
+- GHSA-f3hv-vx7x-3hgc envoy
+- GHSA-r93v-xm45-qcc9 crossplane
+- GHSA-396h-jpq4-vc7p envoy
+- GHSA-6jpc-4c83-83v2 open-telemetry
+- GHSA-gfw4-49f9-cp25 kubeedge
+- GHSA-9vm9-pqxx-x83v kubeedge
+- GHSA-m3c6-2p7h-cfr3 kubeedge
+- GHSA-5jpj-293f-rhvj kubeedge
 - CVE-2026-10305 Samsung
 - CVE-2026-47775 Envoy proxy (High)
 - CVE-2026-47312 Samsung
